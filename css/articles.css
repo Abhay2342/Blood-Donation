@@ -1,5 +1,9 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
+.card-1{
+  padding-bottom: 5px;
+}
+
 .back-img {
   background-image: url("../images/featured.jpg");
   height: 100%;
