@@ -1,8 +1,5 @@
 body {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThQv-DGY7wjB8M9fG7jGVo8yeJXeRxoIVjnA&usqp=CAU");
-    background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-color: white;
 }
 
 .achievement{
@@ -39,7 +36,6 @@ body {
     font-family: 'Patua One', cursive;
     border-bottom: 3px solid rgba(64, 87, 101, 0.571);
     border-top: 3px solid rgba(49, 65, 76, 0.571);
-    box-shadow: 3px 5px rgba(0, 0, 0, 0.5);
     text-align: center;
     color: white;
     background-image: url("../images/header_img.jpg");
@@ -50,14 +46,14 @@ body {
 }
 
 .sec2 {
-    background-color: #cdd0d7;
+    background-color: white;
     padding-bottom: 20px;
 }
 
 .sec3 {
     border-top: 3px solid rgba(64, 87, 101, 0.571);
     border-bottom: 3px solid rgba(64, 87, 101, 0.571);
-    background-color: #ddd4d4a6;
+    background-image: url("../images/background-1.jpg");
 }
 
 .sec4 {
