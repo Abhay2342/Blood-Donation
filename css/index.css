@@ -5,7 +5,15 @@ body {
   background-size: cover;
 }
 
-
+.achievement{
+    padding: 0%;
+    background-image: url("../images/doctors-team.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 210px;
+    padding-bottom: 510px;
+    
+}
 
 .hstyle {
     font-family: 'Rubik Mono One', sans-serif;
@@ -20,14 +28,25 @@ body {
     border-left: 1px solid rgba(81, 66, 66, 0.782);
     box-shadow: 3px 5px rgba(0, 0, 0, 0.5);
     background-color: #bec5cc8b;
+}
 
+.bottom-card{
+    border-bottom: 3px solid rgba(64, 87, 101, 0.571);
 }
 
 .sec1 {
     padding: 0%;
+    font-family: 'Patua One', cursive;
     border-bottom: 3px solid rgba(64, 87, 101, 0.571);
     border-top: 3px solid rgba(49, 65, 76, 0.571);
     box-shadow: 3px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    background-image: url("../images/header_img.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 210px;
+    padding-bottom: 210px;
 }
 
 .sec2 {
@@ -38,7 +57,7 @@ body {
 .sec3 {
     border-top: 3px solid rgba(64, 87, 101, 0.571);
     border-bottom: 3px solid rgba(64, 87, 101, 0.571);
-    background-color: #d5c9c96f;
+    background-color: #ddd4d4a6;
 }
 
 .sec4 {
@@ -173,7 +192,7 @@ ul.social-footer2 {margin: 0;padding: 0;width: auto;}
 ul.social-footer2 li {display: inline-block;padding: 0;}
 ul.social-footer2 li a:hover {background-color:#ff8d1e;}
 ul.social-footer2 li a {display: block;height:30px;width: 30px;text-align: center;}
-.btn{background-color: #ff8d1e; color:#fff;}
+.btn{background-color: #ff1e1e; color:#fff;}
 .btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
 -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
@@ -187,3 +206,4 @@ box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 transition: all 250ms ease-in-out 0s;
 
 }
+
