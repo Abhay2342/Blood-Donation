@@ -22,6 +22,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script type="text/javascript" src="./script/script.js"></script>
     <title>Blood Bank</title>
 </head>
@@ -62,8 +63,8 @@
                 </ul>
 
                 <div class="text-end">
-                    <a class="btn fw-bolder" href="login.html" target="_blank">Login</a>
-                    <a class="btn fw-bolder" href="signup.html" target="_blank">Sign Up</a>
+                    <a class="btn btn-danger fw-bolder" href="login.html" target="_blank">Login</a>
+                    <a class="btn btn-danger fw-bolder" href="signup.html" target="_blank">Sign Up</a>
                 </div>
             </div>
         </div>
@@ -81,9 +82,9 @@
     </div>
 
     <!-- Find A Donor -->
-    <div class="sec2 container-fluid">
+    <div class="sec2 container-fluid py-5">
         <div class="row d-flex align-items-center justify-content-center">
-            <div class="col-xs-4 col-sm-6 col-md-4 mx-1 mt-3 d-grid gap-3 py-4 bcard">
+            <div class="col-xs-4 col-sm-6 col-md-4 mx-1 d-grid gap-3 py-4 bcard">
                 <p class="fs-2 fw-bolder text-center hstyle">Find A Donor</p>
 
                 <div class="form-floating">
@@ -159,10 +160,10 @@
                     <label for="floatingSelect">Group</label>
                 </div>
 
-                <button type="button" class="btn btn-outline-primary">Search</button>
+                <button type="button" class="btn btn-danger">Search</button>
             </div>
 
-            <div class="col-xs-7 col-sm-6 col-md-7 mx-1 mt-3 py-4">
+            <div class="col-xs-7 col-sm-6 col-md-7 mx-1 py-4">
                 <div
                     class="d-flex flex-wrap align-items-center justify-content-center embed-responsive embed-responsive-4by3 bcard">
                     <iframe width="1044" height="414" src="https://www.youtube.com/embed/gYUcQT6Gxts"
@@ -174,66 +175,123 @@
         </div>
     </div>
 
+    <!-- How Blood Donation Works -->
+    <section class="sec5 py-5">
+        <div class="container-fluid d-flex flex-wrap justify-content-center">
+            <div class="row">
+                <div class="col text-center">
+                    <h2 class="fs-1 fw-bolder hstyle text-danger">Keep Donating Blood</h2>
+                <p class="lead text-black fw-bolder">Blood is one of the most essential fluids of our body that helps in the smooth
+                    functioning
+                    of our body.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <div class="card" style="width: 22rem;">
+                        <img class="card-img-top p-3" src="./images/blood-donation-1.png" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-black fw-bolder">Be A Real Hero</h5>
+                            <p class="card-text text-black">There is nothing better than saving a life Be a hero, Read Blood
+                                Donation Facts.</p>
+                            <a href="#" class="btn1 btn btn-outline-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <div class="card" style="width: 22rem;">
+                        <img class="card-img-top p-3" src="./images/blood-donation-2.png" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-black fw-bolder">It's Cost Free</h5>
+                            <p class="card-text text-black">It Costs Nothing Give blood and stay healthy, Read Blood Donation Facts.
+                            </p>
+                            <a href="#" class="btn1 btn btn-outline-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <div class="card" style="width: 22rem;">
+                        <img class="card-img-top p-3" src="./images/blood-donation-3.png" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-black fw-bolder">Utilize Your Time</h5>
+                            <p class="card-text text-black">It Takes Only an Hour Donate blood save lives! Read Blood Donation Facts.
+                            </p>
+                            <a href="#" class="btn1 btn btn-outline-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
     <!-- Blood Donation Process -->
-    <div
-        class="sec3 img-fluid rounded mx-auto d-block container-fluid d-flex flex-wrap align-items-center justify-content-center d-grid gap-3 py-4">
+    <section class="sec3 py-5">
+        <p class="fs-6 m-0 text-danger fw-bolder text-center pt-4">WHAT WE DO</p>
         <p class="fs-1 text-center fw-bold hstyle">Blood Donation Process</p>
+        <div class="container-fluid d-flex flex-wrap justify-content-center">
 
-        <div class="row">
-            <div class="col-xs-7 col-sm-12 col-md-6 border-end">
-                <div class="card mb-5 mx-5">
-                    <img class="card-img-top" src="images/registration.jpeg" alt="registration">
-                    <div class="card-body">
-                        <h4 class="card-title">Register</h4>
-                        <p class="card-text">Donor fills up the registration form and gives his consent for donation.
-                            You'll be asked to show ID, such as your driver's license. Click <a href="#">Here</a> to
-                            Register Now.
-                        </p>
+            <div class="row">
+                <div class="col-xs-7 col-sm-12 col-md-6">
+                    <div class="card card1 mb-5 mx-5">
+                        <img class="card-img-top" src="images/registration.jpeg" alt="registration">
+                        <div class="card-body">
+                            <h4 class="card-title">Register</h4>
+                            <p class="card-text">Donor fills up the registration form and gives his consent for
+                                donation.
+                                You'll be asked to show ID, such as your driver's license. Click <a href="#">Here</a> to
+                                Register Now.
+                            </p>
 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-7 col-sm-12 col-md-6">
+                    <div class="card card1 mb-5 mx-5">
+                        <img class="card-img-top" src="images/medical-checkup.jpg" alt="medical-checkup">
+                        <div class="card-body">
+                            <h4 class="card-title">Medical CheckUp</h4>
+                            <p class="card-text">Donors Medical History & life style is asked, check up of temperature,
+                                blood pressure, pulse and haemoglobin.</p>
+
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-xs-7 col-sm-12 col-md-6 border-end">
-                <div class="card mb-5 mx-5">
-                    <img class="card-img-top" src="images/medical-checkup.jpg" alt="medical-checkup">
-                    <div class="card-body">
-                        <h4 class="card-title">Medical CheckUp</h4>
-                        <p class="card-text">Donors Medical History & life style is asked, check up of temperature,
-                            blood pressure, pulse and haemoglobin.</p>
+            <div class="row">
+                <div class="col-xs-7 col-sm-12 col-md-6">
+                    <div class="card card1 mb-5 mx-5">
+                        <img class="card-img-top" src="images/blood-donation.jpg" alt="blood-donation">
+                        <div class="card-body">
+                            <h4 class="card-title">Blood Donation</h4>
+                            <p class="card-text">Phlebotomist draws unit (350ml/450ml) of blood. A new sterile meedle is
+                                used to draw each unit and the needle is destroyed after it has been used.</p>
 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-7 col-sm-12 col-md-6">
+                    <div class="card card1 mb-5 mx-5">
+                        <img class="card-img-top" src="images/refreshments.jpg" alt="refreshments">
+                        <div class="card-body">
+                            <h4 class="card-title">Refreshments</h4>
+                            <p class="card-text">Your body needs folic acid to produce new red blood cells. After blood
+                                donation, eat foods rich in folic acid, so that your body can produce new blood cells
+                                quickly.</p>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-xs-7 col-sm-12 col-md-6 border-end">
-                <div class="card mb-5 mx-5">
-                    <img class="card-img-top" src="images/blood-donation.jpg" alt="blood-donation">
-                    <div class="card-body">
-                        <h4 class="card-title">Blood Donation</h4>
-                        <p class="card-text">Phlebotomist draws unit (350ml/450ml) of blood. A new sterile meedle is
-                            used to draw each unit and the needle is destroyed after it has been used.</p>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xs-7 col-sm-12 col-md-6 border-end">
-                <div class="card mb-5 mx-5">
-                    <img class="card-img-top" src="images/refreshments.jpg" alt="refreshments">
-                    <div class="card-body">
-                        <h4 class="card-title">Refreshments</h4>
-                        <p class="card-text">Your body needs folic acid to produce new red blood cells. After blood
-                            donation, eat foods rich in folic acid, so that your body can produce new blood cells
-                            quickly.</p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </section>
 
 
     <div class="container-fluid py-4 sec4">
@@ -341,52 +399,6 @@
         </div>
     </div>
 
-    <!-- How Blood Donation Works -->
-    <section class="bottom-card">
-        <div class="px-3 pt-4 mx-auto text-center">
-            <h2 class="fs-2 text-center fw-bold hstyle">Keep Donating Blood</h2>
-            <p class="lead">Blood is one of the most essential fluids of our body that helps in the smooth functioning
-                of our body.</p>
-        </div>
-
-        <div class="container">
-            <div class="card-deck mb-4 text-center d-flex flex-row justify-content-center">
-                <div class="card mb-4 shadow-sm mx-5">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">Be A Real Hero</h4>
-                    </div>
-                    <div class="card-body py-5 px-5">
-                        <p>There is nothing better than saving a life Be a hero, Read Blood
-                            Donation Facts.</p>
-                    </div>
-                </div>
-                <div class="card mb-4 shadow-sm mx-5">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">It's Cost Free</h4>
-                    </div>
-                    <div class="card-body py-5 px-5">
-                        <p>
-                            It Costs Nothing Give blood and stay healthy, Read Blood Donation Facts.
-                        </p>
-                    </div>
-                </div>
-                <div class="card mb-4 shadow-sm mx-5">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">Utilize Your Time</h4>
-                    </div>
-                    <div class="card-body py-5 px-5">
-                        <p>
-                            It Takes Only an Hour Donate blood save lives! Read Blood Donation Facts.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="d-flex justify-content-center pb-5">
-            <button type="button" class="btn btn-danger">Get Started</button>
-        </div>
-    </section>
-
     <div class="container-fluid sec-newsletter">
         <section class="newsletter">
             <div class="container-fluid">
@@ -459,8 +471,8 @@
                             <h5 class="widget-title">Get Started<span></span></h5>
                             <p>You can book an appointment to give blood as soon as you register as a blood donor.
                                 However, the next convenient appointment might not be straightaway.</p>
-                            <a class="btn" href="login.html" target="_blank">Login</a>
-                            <a class="btn" href="signup.html" target="_blank">Sign Up</a>
+                            <a class="btn btn-primary" href="login.html" target="_blank">Login</a>
+                            <a class="btn btn-primary" href="signup.html" target="_blank">Sign Up</a>
                         </div>
                     </div>
 

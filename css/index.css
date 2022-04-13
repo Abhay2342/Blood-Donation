@@ -2,6 +2,11 @@ body {
     background-color: white;
 }
 
+.btn1{
+    margin: 0%;
+width: 100%;
+}
+
 .achievement{
     padding: 0%;
     background-image: url("../images/doctors-team.jpg");
@@ -27,12 +32,9 @@ body {
     background-color: #bec5cc8b;
 }
 
-.bottom-card{
-    border-bottom: 3px solid rgba(64, 87, 101, 0.571);
-}
-
 .sec1 {
     padding: 0%;
+    background-color: white;
     font-family: 'Patua One', cursive;
     border-bottom: 3px solid rgba(64, 87, 101, 0.571);
     border-top: 3px solid rgba(49, 65, 76, 0.571);
@@ -47,13 +49,10 @@ body {
 
 .sec2 {
     background-color: white;
-    padding-bottom: 20px;
 }
 
 .sec3 {
-    border-top: 3px solid rgba(64, 87, 101, 0.571);
     border-bottom: 3px solid rgba(64, 87, 101, 0.571);
-    background-image: url("../images/background-1.jpg");
 }
 
 .sec4 {
@@ -61,19 +60,15 @@ body {
 }
 
 .sec5 {
-    background-color: #ece6e6;
-    padding: 10px 50px 50px 50px;
+    background-color: #f3eaea7b;
 }
 
-.sec6 {
-    background-color: #ece6e6;
-}
 
 .sec-newsletter {
     padding: 0%;
 }
 
-.card {
+.card1 {
     border-radius: 4px;
     border-right: 1px solid #222;
     border-bottom: 1px solid #222;
@@ -82,14 +77,14 @@ body {
     box-shadow: 3px 5px rgba(0, 0, 0, 0.5);
     transition: all 0.3s linear;
 }
-.card:hover {
+.card1:hover {
     -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
-.card:hover {
+.card1:hover {
     -webkit-transform: scale(1.02);
     -moz-transform: scale(1.02);
     -o-transform: scale(1.02);
@@ -188,18 +183,3 @@ ul.social-footer2 {margin: 0;padding: 0;width: auto;}
 ul.social-footer2 li {display: inline-block;padding: 0;}
 ul.social-footer2 li a:hover {background-color:#ff8d1e;}
 ul.social-footer2 li a {display: block;height:30px;width: 30px;text-align: center;}
-.btn{background-color: #ff1e1e; color:#fff;}
-.btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
--webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
--moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
--ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
--o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
--webkit-transition: all 250ms ease-in-out 0s;
--moz-transition: all 250ms ease-in-out 0s;
--ms-transition: all 250ms ease-in-out 0s;
--o-transition: all 250ms ease-in-out 0s;
-transition: all 250ms ease-in-out 0s;
-
-}
-
